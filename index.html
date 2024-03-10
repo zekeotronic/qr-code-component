@@ -3,26 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | QR code component</title>
+    <meta
+      property="og:title"
+      content="Eric Ihle | zekeotronic | QR Code Component"
+    />
+    <meta
+      property="og:description"
+      content="Frontend Mentor | Newbie Challenge"
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/zekeotronic/qr-code-component/main/design/desktop-preview.jpg"
+    />
+    <meta
+      property="og:url"
+      content="https://zekeotronic.github.io/qr-code-component/"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    Improve your front-end skills by building projects Scan the QR code to visit
-    Frontend Mentor and take your coding skills to the next level
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+  <body
+    class="h-svh w-svw bg-light-grey flex justify-center items-center font-outfit"
+  >
+    <main
+      class="max-w-[320px] max-h-[497px] rounded-[20px] bg-white px-4 pt-4 pb-[40px] flex flex-col gap-[25px]"
+    >
+      <img
+        src="./images/image-qr-code.png"
+        alt="qr code"
+        class="rounded-[20px]"
+      />
+      <div
+        class="flex flex-col items-center h-[129px] w-full justify-between gap-2"
+      >
+        <h1 class="text-[22px] font-bold text-center">
+          Improve your front-end skills by building projects
+        </h1>
+        <div class="px-4">
+          <p
+            class="text-grey text-[15px] font-normal tracking-[0.19px] text-center"
+          >
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
